@@ -1,0 +1,13 @@
+<?php
+	 $IntVariable = 75;
+	iF ($IntVariable > 100){
+		
+		echo $Result = '$IntVariable is grater than 100'; 
+		}
+	
+		else {  $Result = '$IntVariable is less than or equal to 100';
+		}
+		echo "<p>$Result</p>";
+		
+	?>
+// if else statement php
