@@ -1,5 +1,5 @@
 
-????????HIT COUNTER/////////
+????????HIT COUNTER///////// DONT FORGET THE NUMBER SHIFT SIGNS IN FRONT OF VARIABLES. 
 
   <!DOCTYPE html>
 <html>
@@ -15,7 +15,7 @@
 	
 	if (file_exists($CounterFile)) {
 		$Hits = file_get_contents($CounterFile);
-		++Hits;
+		++$Hits;
 		}
 		
 		else 
